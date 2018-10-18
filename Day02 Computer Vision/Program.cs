@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.FileExtensions;
 using Microsoft.Extensions.Configuration.Json;
 
-namespace Day01_02_Computer_Vision
+namespace Day02_Computer_Vision
 {
     class Program
     {
