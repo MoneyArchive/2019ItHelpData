@@ -51,7 +51,7 @@ namespace Day03_FaceAPI
             Console.WriteLine($"FacialHair: {{Beard: {face.FaceAttributes.FacialHair.Beard}, Moustache: {face.FaceAttributes.FacialHair.Moustache}, Sideburns: {face.FaceAttributes.FacialHair.Sideburns}}}");
             Console.WriteLine($"Gender: {face.FaceAttributes.Gender}");
             Console.WriteLine($"Glasses: {face.FaceAttributes.Glasses}");
-            Console.WriteLine($"Hair: {{HairColor: {face.FaceAttributes.Hair.HairColor}, Bald:{face.FaceAttributes.Hair.Bald}, Invisible:{face.FaceAttributes.Hair.Invisible}}}");
+            Console.WriteLine($"Hair: {{HairColor: {face.FaceAttributes.Hair.HairColor[0].Color}:{face.FaceAttributes.Hair.HairColor[0].Confidence}, Bald:{face.FaceAttributes.Hair.Bald}, Invisible:{face.FaceAttributes.Hair.Invisible}}}");
             Console.WriteLine($"HeadPose: {{ Pitch: {face.FaceAttributes.HeadPose.Pitch}, Roll: {face.FaceAttributes.HeadPose.Roll}, Yaw:{face.FaceAttributes.HeadPose.Yaw}}}");
             Console.WriteLine($"Makeup: {{ EyeMakeup: {face.FaceAttributes.Makeup.EyeMakeup}, LipMakeup: {face.FaceAttributes.Makeup.LipMakeup}}}");
             Console.WriteLine($"Noise: {{ NoiseLevel: {face.FaceAttributes.Noise.NoiseLevel}, Value: {face.FaceAttributes.Noise.Value}}}");
